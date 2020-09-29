@@ -1,0 +1,7 @@
+y=7 because y is passed by value to the function foo, so the value of original y will not change.
+
+z=[9,8] because the last element of z is removed by the function pop.
+
+obj.num = 8 because obj is passed by object reference into the function foo and the function increases obj.num by 1.
+
+obj.arr = [9,8] because obj.arr is assigned with the array a and a is passed by reference by the array z, z is poped at the end and became [9,8], obj.arr points to the same place as z does, so obj.arr = [9,8] 

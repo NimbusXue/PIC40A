@@ -1,0 +1,88 @@
+h1{
+    color: royalblue;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: Times New Roman, serif;
+}
+
+table{
+    float: left;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+th{
+    border: 1px solid black;
+    font-family: Times New Roman, serif;
+}
+
+td{
+    border: 1px solid black;
+    font-family: Times New Roman, serif;
+}
+
+p{
+    text-indent: 20px;
+    font-family: Times New Roman, serif;
+    
+}
+
+body{
+    background-color: blanchedalmond;
+}
+ 
+.container{
+    position: relative;
+    float: right;
+    width: 450px;
+    height: 280px;
+} 
+img{
+    float: right;
+}
+.clear {
+    clear: both;
+    }
+/* use relative and absolute position to have the images stacked diagonally as seen in the screen shots */
+#pen{
+    position: absolute;
+    right: 100px;
+    top:0px; 
+    bottom:25px;
+    z-index: 1;
+    border: 1px solid black;
+    float: right;
+}
+#pool{
+    position: absolute;
+    right: 50px;
+    top:25px;
+    z-index: 2;
+    border: 1px solid black; 
+    float: right;
+}  
+#warriors{
+    position: absolute;
+    right:0px;
+    top:50px;
+    z-index: 3;
+    border: 1px solid black;
+    float: right;
+}
+
+#pen:hover{
+    z-index: 4;
+    border: 1px solid red;
+}
+#pool:hover{
+    z-index: 4;
+    border: 1px solid red;
+}
+#warriors:hover{
+    z-index: 4;
+    border: 1px solid red;
+} 
+fieldset{
+    background: cornflowerblue;
+}
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Calculator.css" />
+    <script src="Calculator.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>Simple Calculator</h1>
+    </header>
+    <main>
+        <section id="block1">
+            <label for="FirstValue">Enter first value:</label>
+            <input id="FirstValue" type="text" name="firstvalue"/> 
+        </section>  
+        <section id="operator">
+            <label for="op1">+</label>
+            <input type="radio" id="op1" value="plus" name="operators" checked />
+            <label for="op2">-</label>
+            <input type="radio" id="op2" value="minus" name="operators"/>
+            <label for="op3">&times;</label>
+            <input type="radio" id="op3" value="times" name="operators"/>
+            <label for="op4">&divide;</label>
+            <input type="radio" id="op4" value="divides" name="operators"/>
+        </section>
+        <label for="SecondValue">Enter second value:</label>
+        <input id="SecondValue" type="text" name="secondvalue"/>
+        <input type="submit" value="Compute" onclick="compute()"/>
+        <div>Results:</div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,15 @@
+p{
+    border:5px solid blue; 
+    width: 300px;
+    padding-bottom: 5px;
+}
+span{
+    background-color: red;
+    opacity: 0.5;
+    z-index: 2;
+    position: fixed;
+    top:28px;
+    
+
+
+}
